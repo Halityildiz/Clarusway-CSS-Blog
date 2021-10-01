@@ -2,21 +2,16 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-  
-}
-
-article{
-  display: block;
 }
 
 .blog{
+  display: block;
   width: 90vw;
   padding: 1rem 2rem;
   margin: auto;
   display: flex;
   margin-top: 4rem;
   border: 2px solid blue;
-  
 }
 
 .body{
@@ -25,14 +20,12 @@ article{
   font-size: 16px;
 }
 
-title{
+.title{
   display: block;
   font-size: 1.5rem;
-  padding-bottom:2rem;
-  
 }
 
-p{
+.desc{
   text-align: justify;
-  margin-top: 1rem;
+  margin-top: 0.7rem;
 }
